@@ -1,10 +1,16 @@
 
 Configures ~consult--source-buffer~ to be sorted by "realness" (~doom-real-buffer-p~), ~buffer-display-time~ and alphabetically
 
+Requires doom-emacs.
+
 * Usage
 
 #+begin_src emacs-lisp
-(use-package! vi-consult-buffers
+(package! vi-consult-buffers :recipe (:host github :repo "indigoviolet/vi-consult-buffers"))
+#+end_src
+
+#+begin_src emacs-lisp
+(use-package! vicb
   :config
   (vicb-setup))
 #+end_src
