@@ -17,6 +17,6 @@ Requires doom-emacs.
 
 * TODO
 
-- Use ~~~doom-switch-buffer-hook~ and ~doom-switch-window-hook~ to maintain a custom
+- Use ~doom-switch-buffer-hook~ and ~doom-switch-window-hook~ to maintain a custom
   last-visited state, instead of last-display (which is last assignment of
   buffer to window)
